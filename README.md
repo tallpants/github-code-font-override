@@ -9,7 +9,7 @@ Userstyle to let you override the default font for code on GitHub.
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 - [Opera](https://addons.opera.com/en/extensions/details/stylus/)
 
-2. Click [this](https://github.com/tallpants/github-code-font-override/raw/master/github-code-font-override.user.css) (or click on the `github-code-font-override.user.css` file in the repo root and then click on "Raw" yourself).
+2. Click on the `github-code-font-override.user.css` file in the repo root and then click on "Raw". ([Or just click this shortcut!](https://github.com/tallpants/github-code-font-override/raw/master/github-code-font-override.user.css))
 3. Stylus should pop up -- replace "Source Code Pro" with your own font if you want, and click on the "Install style" button on the left sidebar.
 
 You're done!
