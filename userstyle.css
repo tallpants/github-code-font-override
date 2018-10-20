@@ -1,0 +1,6 @@
+pre, code, tt, kbd:not(.badmono), samp, .blob-code, .file-data pre, .line-data,
+#gist-form .file .input textarea, .blob-code-inner
+{
+  font-family: /* replace Source Code Pro with your own font */ "Source Code Pro" !important;
+  font-size: 13px !important;
+}
