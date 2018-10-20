@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           GitHub Code Font Override
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Lets you override the default font used for code on GitHub
+@author         github.com/tallpants
+==/UserStyle== */
+
+@-moz-document domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com"), regexp("^https?://((blog|gist|guides|help|raw|resources|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$") {
+    pre, code, tt, kbd:not(.badmono), samp, .blob-code, .file-data pre, .line-data,
+    #gist-form .file .input textarea, .blob-code-inner
+    {
+      font-family: /* replace Source Code Pro with your own font */ "Source Code Pro" !important;
+      font-size: 13px !important;
+    }
+}
